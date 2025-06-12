@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* set design color system */
+:root {
+    --color-primary: #4F46E5;
+    --color-secondary: #3B82F6;
+    --color-accent: #FBBF24;
+    --color-background: #F9FAFB;
+    --color-surface: #FFFFFF;
+    --color-error: #EF4444;
+    --color-on-primary: #FFFFFF;
+    --color-on-secondary: #FFFFFF;
+    --color-on-accent: #000000;
+    --color-on-background: #000000;
+    --color-on-surface: #000000;
+    --color-on-error: #FFFFFF;
+}
+
+.geist-sans {
+    font-family: "Geist", sans-serif;
+}
+
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.typewriter-container {
+    display: inline-block;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+    color: currentColor
+}
+
+@keyframes blink {
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}

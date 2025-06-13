@@ -1,4 +1,4 @@
-<nav id="navbar" class="w-screen h-16 bg-black/20 border-b border-b-white/30 backdrop-blur-md flex justify-between px-12 fixed top-0 left-0 z-50 backdrop-blur-md transition-all duration-300">
+<nav id="navbar" class="w-screen h-16 bg-transparent border-b border-b-white/30 backdrop-blur-md flex justify-between px-12 fixed top-0 left-0 z-50 backdrop-blur-md transition-all duration-300">
     <div id="logo" class="flex items-center">
         <img src="{{ asset('images/logo-fisika.png') }}" alt="Logo" class="w-28">
     </div>
@@ -20,7 +20,7 @@
         window.addEventListener('scroll', function() {
             if (window.scrollY > 10) {
                 logo.querySelector('img').src = "{{ asset('images/logo-fisika.png') }}";
-                navbar.classList.remove('bg-black/20', 'border-b', 'border-b-white/15', 'backdrop-blur-md');
+                navbar.classList.remove('bg-transparent', 'border-b', 'border-b-white/15', 'backdrop-blur-md');
                 navbar.classList.add('bg-neutral_01', 'shadow-lg');
                 navLinks.forEach(link => {
                     link.classList.remove('text-neutral_01');
@@ -29,7 +29,7 @@
             } else {
                 logo.querySelector('img').src = "{{ asset('images/logo-fisika-putih.png') }}";
                 navbar.classList.remove('bg-neutral_01', 'shadow-lg');
-                navbar.classList.add('bg-black/20', 'border-b', 'border-b-white/30', 'backdrop-blur-md');
+                navbar.classList.add('bg-transparent', 'border-b', 'border-b-white/30', 'backdrop-blur-md');
                 navLinks.forEach(link => {
                     link.classList.remove('text-black/80');
                     link.classList.add('text-neutral_01');

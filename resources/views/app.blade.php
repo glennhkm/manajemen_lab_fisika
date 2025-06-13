@@ -37,9 +37,9 @@
         </div>
     </div> --}}
     <section id="hero" class="w-full h-screen flex relative border-b border-[#27548A]/30">
-        <img src="{{ asset('images/lab-google.png') }}" alt="hero"
+        <img src="{{ asset('images/fisika-1.jpeg') }}" alt="hero"
             class="object-cover w-full h-full absolute inset-0 z-0">
-        <div class="absolute inset-0 bg-gradient-to-bl from-black/30 to-[#27548A]/30 w-full h-full z-10 backdrop-blur-md"></div>
+        <div class="absolute inset-0 bg-gradient-to-bl from-black/80 to-[#27548A]/40 w-full h-full z-10 backdrop-blur-md"></div>
         <div class="w-full h-full text-neutral_01 flex flex-col items-center justify-center z-20 px-6 md:px-12 gap-4">
             <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"
                 class="text-xl border-b border-white/50 pb-3 mb-8 font-light text-neutral_01/80">
@@ -57,31 +57,31 @@
                 />
             </div>
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"
-                class="bg-white/20 backdrop-blur border border-white/40 shadow-lg shadow-black/20 px-5 py-1.5 rounded-full text-neutral_01/80 text-xs text-center md:text-base">
+                class="bg-white/20 backdrop-blur border border-white/40 shadow-lg shadow-black/20 px-5 py-1.5 rounded-full text-neutral_01 text-xs text-center md:text-base">
                 Departemen Fisika - Fakultas Matematika dan Ilmu Pengetahuan Alam - Universitas Syiah Kuala
             </h3>
             <div id="contribution"
-                class="bg-white/20 backdrop-blur border border-[#27548A]/30 grid grid-cols-2 md:grid-cols-3 gap-x-12 md:gap-x-32 gap-y-4 md:gap-32 absolute -bottom-[3.8rem] justify-between w-full md:w-auto items-center py-6 rounded-3xl shadow-lg shadow-black/20"
+                class="bg-neutral_01 backdrop-blur border border-[#27548A]/60 grid grid-cols-2 md:grid-cols-3 gap-x-12 md:gap-x-32 gap-y-4 md:gap-32 absolute -bottom-[3.8rem] justify-between w-full md:w-auto items-center py-6 rounded-3xl shadow-lg shadow-black/20"
                 data-aos="fade-up" data-aos-duration="300">
                 <div class="col-span-2 md:col-span-1 flex gap-2 flex-col md:gap-4 items-center text-center">
-                    <h4 class="font-bold text-2xl md:text-4xl text-yellow-400">23+</h4>
-                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/75 font-medium">Alat Laboratorium</p>
+                    <h4 class="font-bold text-2xl md:text-4xl text-[#27548A]">23+</h4>
+                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/70 font-medium">Alat Laboratorium</p>
                 </div>
                 <div class="flex flex-col gap-2 md:gap-4 items-center text-center">
                     <h4 class="font-bold text-2xl md:text-4xl text-yellow-400">100+</h4>
-                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/75 font-medium">Kunjungan dan Pengujian
+                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/70 font-medium">Kunjungan dan Pengujian
                         Lab</p>
                 </div>
                 <div class="flex flex-col gap-2 md:gap-4 items-center text-center">
-                    <h4 class="font-bold text-2xl md:text-4xl text-yellow-400">23+</h4>
-                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/75 font-medium">Alat Laboratorium</p>
+                    <h4 class="font-bold text-2xl md:text-4xl text-[#27548A]">23+</h4>
+                    <p class="text-sm md:text-base text-neutral_01/60 text-[#151515]/70 font-medium">Alat Laboratorium</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section-padding bg-gradient-to-br from-[#27548A]/30 via-transparent to-transparent">
+    <section id="about" class="section-padding bg-gradient-to-br from-[#27548A]/40 via-transparent to-transparent">
         <div class="container mx-auto px-6 md:px-12 pt-12">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-6xl md:text-6xl font-bold mb-8 text-[#151515]/90">
@@ -130,10 +130,10 @@
     <section id="facilities" class="section-padding">
         <div class="container mx-auto px-6 md:px-12">
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                <h2 class="text-4xl md:text-6xl font-bold mb-8">
                     Fasilitas Unggulan
                 </h2>
-                <p class="text-xl text-neutral_01/70 max-w-3xl mx-auto">
+                <p class="text-xl text-[#151515]/70 max-w-3xl mx-auto">
                     Dilengkapi dengan peralatan modern dan canggih untuk mendukung penelitian geofisika
                 </p>
             </div>

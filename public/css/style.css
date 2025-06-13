@@ -1,20 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-/* set design color system */
 :root {
-    --color-primary: #4F46E5;
-    --color-secondary: #3B82F6;
-    --color-accent: #FBBF24;
-    --color-background: #F9FAFB;
-    --color-surface: #FFFFFF;
-    --color-error: #EF4444;
-    --color-on-primary: #FFFFFF;
-    --color-on-secondary: #FFFFFF;
-    --color-on-accent: #000000;
-    --color-on-background: #000000;
-    --color-on-surface: #000000;
-    --color-on-error: #FFFFFF;
+    --neutral_01: #fcfbf0;
+}
+
+.text-neutral_01 {
+    color: var(--neutral_01);
+}
+
+.bg-neutral_01 {
+    background-color: var(--neutral_01);
 }
 
 .geist-sans {
@@ -44,4 +40,49 @@
     100% {
         opacity: 0;
     }
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #fbbf24, #f5a314);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.form-input:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #fbbf24;
+    outline: none;
 }
